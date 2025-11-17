@@ -1,0 +1,26 @@
+# Git ignore file 
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Logs
+logs/
+*.log
+
+# Model files backup
+*.pkl
+!backend/glucose_range_model.pkl
+
+# Arduino build
+*.elf
+*.bin
+*.hex
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
